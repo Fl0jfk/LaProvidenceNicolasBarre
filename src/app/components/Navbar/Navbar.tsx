@@ -3,12 +3,10 @@ import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Logo from "../../assets/logo2.webp";
-import { useData } from '@/app/contexts/data';
 
 export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
     const [clickOnLink, setClickOnLink] = useState(menuOpened);
     const menuOpen = (clickOnLink ? "bg-white" : "hidden");
-    const data = useData()
     const handleLinkClick = () => {
         setClickOnLink(false);
         onLinkClick({ clickOnLink: false });

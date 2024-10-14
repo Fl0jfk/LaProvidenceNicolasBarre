@@ -1,8 +1,7 @@
 "use client"
 
 import { useMemo } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
-import { useData } from "../../contexts/data";
+import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 import Link from "next/link";
 
 function detectDeviceType() {
@@ -26,7 +25,6 @@ export default function Map() {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function MapKit({ mapLink}:any) {
   const center = useMemo(() => ({ lat: 49.248597376102744, lng: 0.9611038272688814 }), []);
-  const data = useData();
   return (
     <Link href={mapLink}>
       <GoogleMap zoom={12} center={center} mapContainerClassName="w-full h-full rounded-xl" options={{ disableDefaultUI: true }}>

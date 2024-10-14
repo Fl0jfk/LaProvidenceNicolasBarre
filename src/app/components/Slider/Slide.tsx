@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function Slide({name, imgFront, imgBack, bgFront, bgBack, color, link}: SliderProps) {
     return (
         <Link href={link} className={`select-none flex flex-col justify-between xl:hover:scale-105 lg:hover:scale-105 h-[600px] min-w-[300px] sm:h-[450px] sm:min-w-[250px] rounded-3xl m-3 p-4 cursor-grab active:cursor-grabbing relative overflow-hidden transition ease-in-out duration-300 bg-[${bgFront}]`}>
