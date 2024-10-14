@@ -49,7 +49,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal'>Projet d'établissement</Link>
+                                <Link href={"/"} className='text-base font-normal'>Projet d&apos;établissement</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
@@ -65,7 +65,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal'>L'internat</Link>
+                                <Link href={"/"} className='text-base font-normal'>L&apos;internat</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
