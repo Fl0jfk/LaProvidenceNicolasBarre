@@ -12,7 +12,7 @@ const Dropdown: React.FC<DropdownProps> = ({ title, items = [] }) => {
     <div className='w-full'>
       <button onClick={toggleDropdown} className="w-full px-4 py-2 bg-[#F2E9EB] text-3xl rounded-xl flex items-center justify-between text-center">
         {title}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className={`w-5 h-5 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
+        <svg viewBox="0 0 24 24" className={`w-5 h-5 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
           <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
         </svg>
       </button>
