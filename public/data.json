@@ -16,21 +16,33 @@
         {
             "id":1,
             "name":"Découvrez l'école",
-            "img":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bg-front": "",
+            "bg-back": "",
+            "color": "#FBB800",
             "shortDescription":"",
             "description":""
         },
         {
             "id":2,
             "name":"Découvrez le collège",
-            "img":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/manucure/manucurecover.jpg",
+            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bg-front": "",
+            "bg-back": "",
+            "color": "#18AAE2",
             "shortDescription":"",
             "description":""
         },
         {
             "id":3,
             "name":"Découvrez le lycée",
-            "img":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/epilation/epilationcover.jpg",
+            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bg-front": "",
+            "bg-back": "",
+            "color": "#E3097B",
             "shortDescription":"",
             "description":""
         }
