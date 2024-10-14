@@ -33,5 +33,6 @@ export default function Slider({ props }: SliderProps) {
 }
 
 type SliderProps = {
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   props: any[];
 };

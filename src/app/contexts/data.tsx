@@ -99,6 +99,7 @@ const DataContext = createContext<Data | undefined>(undefined);
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export const DataProvider = ({ children }: PropsWithChildren<{}>) => {
+   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [error, setError] = useState<Error | null>(null);
   const [data, setData] = useState<Data | undefined>(undefined);
 

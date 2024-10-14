@@ -83,5 +83,6 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
 
 type NavbarProps = {
     menuOpened: boolean;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     onLinkClick: any;
 }
