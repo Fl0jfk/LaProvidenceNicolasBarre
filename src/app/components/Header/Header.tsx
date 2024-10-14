@@ -35,7 +35,7 @@ export default function Header(){
             variants={{ visible: { y: 0 }, hidden: { y: "-100%" }}} 
             animate={hidden ? "hidden" : "visible"}
             transition={{ duration: 0.35, ease: "easeInOut" }}
-            className={`flex p-4 justify-between items-center w-full sm:fixed md:fixed z-[12] md:mb-[100px] ${opacityMenu} self-center text-2xl overflow-hidden max-w-[1500px] mx-auto bg-white sm:shadow md:shadow`}>
+            className={`flex p-4 justify-between items-center w-full sm:fixed md:fixed z-[12] md:mb-[100px] ${opacityMenu} self-center text-2xl overflow-hidden max-w-[1200px] mx-auto bg-white sm:shadow md:shadow`}>
             <div className='w-2/12 flex items-center h-full'>
                 {Logo &&
                     <Link href="/">
@@ -43,11 +43,11 @@ export default function Header(){
                     </Link>
                 }
             </div>
-            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-base sm:pl-2 uppercase w-8/12 ${menuDisapear}`}>
+            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-base sm:pl-4 uppercase w-8/12 ${menuDisapear}`}>
                 {items.map((item, index) => (
                     <li key={index} className='flex flex-col group relative'>
                         <Link href={`/${item.name.toLowerCase()}`} aria-label={`Lien vers la page ${item.name}`} className="xl:group-hover:text-white lg:group-hover:text-white transition-colors duration-300 z-10 p-1">{item.name}</Link>
-                        <span className={`h-[2px] w-full transition-transform duration-200 bg-[${item.color}] group-hover:scale-y-[20] group-hover:z-0 origin-bottom`}></span>
+                        <span style={{backgroundColor: item.color}} className={`h-[2px] w-full transition-transform duration-200 group-hover:scale-y-[20] group-hover:z-0 origin-bottom`}></span>
                         {index < items.length - 1 && (
                             <span className='absolute right-[-22px] top-[39%] sm:right-[-16px] transform-translate-1/2 w-2 h-2 rounded-full bg-gray-400'></span>
                         )}

@@ -6,7 +6,7 @@
             "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/ecole-maternelle-elementaire-le-mesnil-esnard-2.png",
             "imgBack":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/ecole-maternelle-elementaire-le-mesnil-esnard.png",
             "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(251, 184, 0, 0.52) 61%)",
-            "bgBack": "",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(251, 184, 0, 0.52) 100%)",
             "color": "#FBB800",
             "link":""
         },
@@ -16,7 +16,7 @@
             "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard-3-e1651531014887.png",
             "imgBack":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard.png",
             "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(24, 170, 226, 0.52) 61%)",
-            "bgBack": "",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(24, 170, 226, 0.6) 100%)",
             "color": "#18AAE2",
             "link": ""
         },
@@ -26,7 +26,7 @@
             "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard-lycee-e1651531370548.png",
             "imgBack":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard-lycee-2.png",
             "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(227, 9, 123, 0.57) 61%)",
-            "bgBack": "",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(227, 9, 123, 0.58) 100%)",
             "color": "#E3097B",
             "link": ""
         }

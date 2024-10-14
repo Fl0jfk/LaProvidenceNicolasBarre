@@ -8,7 +8,7 @@ export default function RollingSlider (){
     return (
         <>
             {data.categories[0] &&
-                <section id="slideshow" className="max-w-[1500px] w-full self-center mx-auto">
+                <section id="slideshow" className="max-w-[1200px] w-full self-center mx-auto">
                     <Slider props={data.categories}/>
                 </section>
             }

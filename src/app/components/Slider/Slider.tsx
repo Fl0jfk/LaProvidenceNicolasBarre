@@ -24,7 +24,7 @@ export default function Slider({ props }: SliderProps) {
     containerRef.current.scrollLeft = newScrollLeft;
   };
   return (
-    <div ref={containerRef} className="flex items-center overflow-x-scroll snap-x snap-mandatory cursor-grab select-none h-[650px]" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} onMouseMove={handleMouseMove}>
+    <div ref={containerRef} className="flex items-center overflow-x-scroll snap-x snap-mandatory cursor-grab select-none h-[600px]" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} onMouseMove={handleMouseMove}>
       {props.map((categories) => {
         return <Slide name={categories.name} key={categories.id} imgFront={categories.imgFront} imgBack={categories.imgBack} bgFront={categories.bgFront} bgBack={categories.bgBack} color={categories.color} link={categories.link}/>
       })}

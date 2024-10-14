@@ -6,11 +6,11 @@ import Link from 'next/link';
 export default function Slide({ name, imgFront, imgBack, bgFront, bgBack, color, link }: SliderProps) {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <Link href={link} style={{backgroundImage:bgFront }} className="select-none flex flex-col justify-between h-[600px] min-w-[300px] w-[300px] sm:h-[450px] sm:min-w-[250px] rounded-3xl m-3 cursor-grab active:cursor-grabbing relative overflow-hidden" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
+        <Link href={link} style={!isHovered?{backgroundImage:bgFront }:{backgroundImage:bgBack}} className="select-none flex flex-col justify-between h-[450px] min-w-[250px] w-[250px] rounded-3xl m-3 cursor-grab active:cursor-grabbing relative overflow-hidden" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
             <p className={`pt-4 pl-4 text-4xl`} style={{ color:color}}>{name}</p>
             <div className='flex w-full h-full items-end justify-end'>
                 <div className='relative h-[95%] w-[85%]'>
-                    <Image src={isHovered?imgBack:imgFront} alt={name} style={{objectFit:'cover'}} className='select-none pointer-events-none' quality={100} fill sizes='50vw'/>
+                    <Image src={isHovered?imgBack:imgFront} alt={name} style={{objectFit:'cover'}} className='select-none pointer-events-none' quality={100} fill sizes='70vw'/>
                 </div>
             </div>  
             <div  className={`w-[35px] h-[35px] z-[2] absolute top-[550px] left-[250px] sm:top-[400px] sm:left-[200px] rounded-full z-[1] p-2`} style={{ backgroundColor:color}}>
