@@ -30,9 +30,7 @@ function MapKit({ mapLink}:any) {
   return (
     <Link href={mapLink}>
       <GoogleMap zoom={12} center={center} mapContainerClassName="w-full h-full rounded-xl" options={{ disableDefaultUI: true }}>
-        {data.profile.logo && (
-          <Marker position={center} icon={{ url: data.profile.logo, scaledSize: new window.google.maps.Size(50, 50)}}/>
-        )}
+        
       </GoogleMap>
     </Link>
   );

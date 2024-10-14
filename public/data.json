@@ -1,50 +1,34 @@
 {
-    "profile":
-    {
-        "firstname": "Karine",
-        "lastname": "Guerrache",
-        "profession": "Esthéticienne",
-        "enterprise": "Karine Beauté Zen",
-        "logo": "https://karinebeautezen.s3.eu-west-3.amazonaws.com/logo/cropped-nouveau-logo-karine-512x512-122x122-removebg-preview.png",
-        "telephone": "02.78.81.63.07",
-        "mobile": "06.03.56.52.23",
-        "adress": "40, route du Neubourg",
-        "postalcode": "27370",
-        "city": "Saint-Pierre-des-Fleurs"
-    },
     "categories":[
         {
             "id":1,
             "name":"Découvrez l'école",
-            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "bg-front": "",
-            "bg-back": "",
+            "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/ecole-maternelle-elementaire-le-mesnil-esnard-2.png",
+            "imgBack":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bgFront": "",
+            "bgBack": "",
             "color": "#FBB800",
-            "shortDescription":"",
-            "description":""
+            "link":""
         },
         {
             "id":2,
             "name":"Découvrez le collège",
-            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "bg-front": "",
-            "bg-back": "",
+            "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard-3-e1651531014887.png",
+            "imgBack":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bgFront": "",
+            "bgBack": "",
             "color": "#18AAE2",
-            "shortDescription":"",
-            "description":""
+            "link": ""
         },
         {
             "id":3,
             "name":"Découvrez le lycée",
-            "img-front":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "img-back":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
-            "bg-front": "",
-            "bg-back": "",
+            "imgFront":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/college-ecole-maternelle-elementaire-le-mesnil-esnard-lycee-e1651531370548.png",
+            "imgBack":"https://karinebeautezen.s3.eu-west-3.amazonaws.com/soins/soinscover.jpg",
+            "bgFront": "",
+            "bgBack": "",
             "color": "#E3097B",
-            "shortDescription":"",
-            "description":""
+            "link": ""
         }
     ],
     "prestations":

@@ -3,9 +3,12 @@ import { createContext, useCallback, useContext, useEffect, useState, PropsWithC
 type Categories = {
   id: number;
   name: string;
-  img: string;
-  shortDescription: string;
-  description: string;
+  imgFront: string;
+  imgBack:string;
+  bgFront:string;
+  bgBack:string;
+  color:string;
+  link:string;
 };
 
 type Prestation = {
@@ -52,18 +55,6 @@ type Shop = {
 }
 
 type Data = {
-  profile: {
-    firstname: string;
-  lastname: string;
-  profession: string;
-  enterprise: string;
-  logo: string;
-  telephone: string;
-  mobile: string;
-  adress: string;
-  postalcode: string;
-  city: string;
-  };
   categories: Categories[];
   prestations: CategoriePrestation[];
   reviews: Reviews[];
@@ -74,18 +65,6 @@ type Data = {
 };
 
 const initialData: Data = {
-  profile: {
-    firstname: "",
-    lastname: "",
-    profession: "",
-    enterprise: "",
-    logo: "",
-    telephone: "",
-    mobile: "",
-    adress: "",
-    postalcode: "",
-    city: ""
-  },
   categories: [],
   prestations:[],
   shop: [],

@@ -9,7 +9,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'karinebeautezen.s3.eu-west-3.amazonaws.com'
+                hostname: 'laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com'
             },
             {
                 protocol: 'https',
