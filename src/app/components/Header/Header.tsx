@@ -43,7 +43,7 @@ export default function Header(){
                     </Link>
                 }
             </div>
-            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-md sm:pl-2 uppercase w-8/12 ${menuDisapear}`}>
+            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-base sm:pl-2 uppercase w-8/12 ${menuDisapear}`}>
                 {items.map((item, index) => (
                     <li key={index} className='flex flex-col group relative'>
                         <Link href={`/${item.name.toLowerCase()}`} aria-label={`Lien vers la page ${item.name}`} className="xl:group-hover:text-white lg:group-hover:text-white transition-colors duration-300 z-10 p-1">{item.name}</Link>
