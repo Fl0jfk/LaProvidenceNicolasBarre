@@ -22,12 +22,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
     return (
         <AnimatePresence>
             {menuOpened && 
-                <motion.nav 
-                        className={`${menuOpen} gap-4 text-xl flex flex-col justify-center top-0 left-0 fixed items-center w-full h-[100vh] z-[9]`}
-                        initial={{translateX:"100%"}}
-                        animate={{translateX:"0%", transition:{duration: 0.5, ease: "easeInOut"}}}
-                        exit={{translateX:"100%", transition:{duration: 0.5, ease: "easeInOut"}}}
-                    >
+                <motion.nav className={`${menuOpen} gap-2 text-xl flex flex-col justify-center top-0 left-0 fixed items-center w-full h-[100vh] z-[9]`} initial={{translateX:"100%"}} animate={{translateX:"0%", transition:{duration: 0.5, ease: "easeInOut"}}} exit={{translateX:"100%", transition:{duration: 0.5, ease: "easeInOut"}}}>
                     <div className='w-2/12 h-[10vh] flex items-center justify-center w-full'>
                         {Logo && 
                             <Link className='hover:scale-110 flex items-center justify-center' href="/" onClick={handleLinkClick} aria-label="Link to top">
@@ -35,7 +30,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </Link>
                         }
                     </div>
-                    <div className={`flex flex-col gap-4 justify-center items-center w-full uppercase`}>
+                    <div className={`flex flex-col gap-3 justify-center items-center w-full uppercase mt-2`}>
                         <Link className='hover:scale-110' href="/" onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Accueil</Link>
                         <Link className='hover:scale-110' href="/présentation" onClick={handleLinkClick} aria-label="Lien vers la page Présentation">Présentation</Link>
                         <ul className='flex flex-col gap-2'>
@@ -93,7 +88,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </svg>
                         </Link>
                     </div>
-                    <div className='flex gap-4 w-4/5'>
+                    <div className='flex gap-4 w-4/5 mx-auto justify-center'>
                         <Link href={"/"} className='bg-gray-500 rounded-3xl p-2 text-lg'>Accès à notre boutique en ligne</Link>
                         <Link href="https://www.ecoledirecte.com/login?cameFrom=%2FAccueil" className='bg-gray-500 rounded-3xl p-2 text-lg'>Connectez-vous à EcoleDirecte</Link>
                     </div>
