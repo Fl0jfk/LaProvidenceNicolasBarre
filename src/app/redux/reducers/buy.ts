@@ -26,6 +26,7 @@ const buySlice = createSlice({
     name: 'buy',
     initialState,
     reducers: {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setInfoUser: (state, action: PayloadAction<any>) => {
             state.email=action.payload.email;
             state.city=action.payload.city;
@@ -40,6 +41,7 @@ const buySlice = createSlice({
             state.postal_code="";
             state.name="";
         },
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setInfoProduct: (state, action: PayloadAction<any>)=> {
             state.price=action.payload.price;
             state.title=action.payload.title;

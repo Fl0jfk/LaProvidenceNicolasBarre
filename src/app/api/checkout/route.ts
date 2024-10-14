@@ -54,6 +54,7 @@ export const POST = async (request: NextRequest) => {
       }
     });
     return NextResponse.json({ msg: checkOutSession, url: checkOutSession.url }, { status: 200 });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("Error occurred:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });

@@ -2,10 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import logo from "../../assets/logo2.webp"
 import Chat from "../Chat/Chat"
-import { useData } from "@/app/contexts/data"
 
 export default function Footer (){
-    const data = useData();
     return (
         <footer className="w-full h-full flex flex-col gap-4 max-w-[1200px] mx-auto">
             <Chat/>

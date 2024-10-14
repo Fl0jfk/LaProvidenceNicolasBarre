@@ -23,8 +23,11 @@ export default function FormBuy({ amount }: FormBuyProps) {
     mode: 'onChange'
   });
   const dispatch = useDispatch();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const itemTitle = useSelector((state: { buy: any }) => state.buy.title);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const itemPrice = useSelector((state: { buy: any }) => state.buy.price);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const itemImage = useSelector((state: { buy: any }) => state.buy.image);
   function onSubmit(data: FormData) {
     dispatch(setInfoUser(data));

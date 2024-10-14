@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 interface DropdownProps {
   title: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   items?: any[];
 }
 

@@ -16,6 +16,7 @@ export default function ModalManucure() {
   const closeModal = () => { dispatch(setModalClose()) };
   const data = useData();
   const modalRef = useRef<HTMLDivElement>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const manucure = data.prestations[0].Manucure[0] as any;
   const gelEtSemi = manucure["Gel et Semi Permanent Mains et Pieds"];
   const depose = manucure["Dépose Gel et Semi Permanent Mains et Pieds"];

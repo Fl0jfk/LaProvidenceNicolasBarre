@@ -78,6 +78,7 @@ export const GET = async (request: NextRequest) => {
       email: customerEmail,
       orderCode
     }, { status: 200 });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("Error occurred:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });

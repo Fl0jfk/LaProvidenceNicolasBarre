@@ -23,6 +23,7 @@ export default function Map() {
   return <MapKit mapLink={mapLink} />;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function MapKit({ mapLink}:any) {
   const center = useMemo(() => ({ lat: 49.248597376102744, lng: 0.9611038272688814 }), []);
   const data = useData();
