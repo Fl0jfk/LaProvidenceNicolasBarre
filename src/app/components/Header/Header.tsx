@@ -39,17 +39,17 @@ export default function Header(){
             <div className='w-2/12 flex items-center h-full'>
                 {Logo &&
                     <Link href="/">
-                        <Image src={Logo} alt='Mon memoji' width={80} height={80} className={`cursor-pointer z-[8] ${opacityLogo}`} quality={100} onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }) }} />
+                        <Image src={Logo} alt='Logo La Providence Nicolas Barré' width={80} height={80} className={`cursor-pointer z-[8] ${opacityLogo}`} quality={100} onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }) }} />
                     </Link>
                 }
             </div>
-            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-base sm:pl-4 uppercase w-8/12 ${menuDisapear}`}>
+            <ul className={`flex gap-10 sm:gap-6 z-[9] text-2xl justify-center sm:text-base sm:pl-6 uppercase w-8/12 ${menuDisapear}`}>
                 {items.map((item, index) => (
                     <li key={index} className='flex flex-col group relative'>
                         <Link href={`/${item.name.toLowerCase()}`} aria-label={`Lien vers la page ${item.name}`} className="xl:group-hover:text-white lg:group-hover:text-white transition-colors duration-300 z-10 p-1">{item.name}</Link>
                         <span style={{backgroundColor: item.color}} className={`h-[2px] w-full transition-transform duration-200 group-hover:scale-y-[20] group-hover:z-0 origin-bottom`}></span>
                         {index < items.length - 1 && (
-                            <span className='absolute right-[-22px] top-[39%] sm:right-[-16px] transform-translate-1/2 w-2 h-2 rounded-full bg-gray-400'></span>
+                            <span className='absolute right-[-22px] top-[39%] sm:right-[-16px] transform-translate-1/2 w-2 h-2 rounded-full bg-gray-400'/>
                         )}
                     </li>
                 ))}
