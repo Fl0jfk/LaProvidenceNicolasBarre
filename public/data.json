@@ -31,6 +31,60 @@
             "link": ""
         }
     ],
+    "leProjetEducatif":[
+        {
+            "id":1,
+            "title":"Accueillir",
+            "citation":"Sans distinction ni acceptation* de personne.",
+            "text": "Tout en exigeant le respect du projet éducatif et du réglement",
+            "textX": "*sans accorder de préférence",
+            "list":[
+                
+            ]
+        },
+        {
+            "id":2,
+            "title":"Instruire",
+            "citation":"Sans s'arrêter ni aux talents, ni aux dispositions bonnes ou mauvaises de ceux qu'on enseigne",
+            "text": "",
+            "textX": "",
+            "list":[
+                {
+                    "id":1,
+                    "text":"en éveillant l'intelligence et la curiosité des élèves,"
+                },
+                {
+                    "id":2,
+                    "text":"en amenant l'élève à construire lui-même son propre savoir,"
+                },
+                {
+                    "id":3,
+                    "text":"en favorisant la capacité d'adaptation."
+                }
+            ]
+        },
+        {
+            "id":3,
+            "title":"Éduquer",
+            "citation":"Sans chercher les cerises sur les pruniers, car chaque personne doit porter le fruit de son espèce.",
+            "text": "",
+            "textX": "",
+            "list":[
+                {
+                    "id":1,
+                    "text":"en éveillant l'intelligence et la curiosité des élèves,"
+                },
+                {
+                    "id":2,
+                    "text":"en amenant l'élève à construire lui-même son propre savoir,"
+                },
+                {
+                    "id":3,
+                    "text":"en favorisant la capacité d'adaptation."
+                }
+            ]
+        }
+    ],
     "news":[
         {
             "id":1,
