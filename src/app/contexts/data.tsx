@@ -53,7 +53,7 @@ const initialData: Data = {
     error: null,
 };
 
-const DataContext = createContext<Data | undefined>(undefined);
+const DataContext = createContext<Data | undefined | null>(null);
 export const DataProvider = ({ children }: PropsWithChildren<{}>) => {
     const [error, setError] = useState<Error | null>(null);
     const [data, setData] = useState<Data>(initialData);
