@@ -89,7 +89,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                         </Link>
                     </div>
                     <div className='flex gap-4 w-full px-4 justify-center items-center'>
-                        <Link href={"/"} className='bg-gray-500 rounded-full p-2 text-base'>Accès à notre boutique en ligne</Link>
+                        <Link href={"/"} className='bg-gray-500 rounded-full p-2 text-base'>Notre boutique en ligne</Link>
                         <Link href="https://www.ecoledirecte.com/login?cameFrom=%2FAccueil" className='bg-gray-500 rounded-full p-2 text-base'>Connectez-vous à EcoleDirecte</Link>
                     </div>
                 </motion.nav>
