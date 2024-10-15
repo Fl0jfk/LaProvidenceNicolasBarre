@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type, react-hooks/exhaustive-deps */
-
+/* eslint-disable @typescript-eslint/no-unused-vars, react-hooks/exhaustive-deps */
 
 import { createContext, useCallback, useContext, useEffect, useState, PropsWithChildren } from "react";
 
