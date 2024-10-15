@@ -1,6 +1,7 @@
 import RollingSlider from "./components/Slider/RollingSlider";
 import Video from "./components/Video/Video";
 import Banner from "./components/Banner/Banner";
+import News from "./components/News/News";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <p className="text-[#E3097B] font-semibold">Une passeport pour l&apos;avenir</p>
       </section>
       <RollingSlider/>
+      <News/>
     </main>
   );
 }
