@@ -2,6 +2,7 @@ import RollingSlider from "./components/Slider/RollingSlider";
 import Video from "./components/Video/Video";
 import Banner from "./components/Banner/Banner";
 import News from "./components/News/News";
+import LeProjetEducatifSlider from "./components/Slider/EducationalProjectSlider";
 
 export default function Home() {
   return (
@@ -18,11 +19,7 @@ export default function Home() {
       </section>
       <RollingSlider/>
       <News/>
-      <section className="w-full max-w-[1200px] flex flex-col justify-center shadow-md px-8 pb-16 mx-auto gap-1">
-        <h3 className="text-3xl uppercase">Le projet</h3>
-        <h4 className="text-3xl">éducatif</h4>
-        <p className="mt-4">Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État. À la suite de Nicolas Barré, la communauté éducative veut :</p>
-      </section>
+      <LeProjetEducatifSlider/>
     </main>
   );
 }

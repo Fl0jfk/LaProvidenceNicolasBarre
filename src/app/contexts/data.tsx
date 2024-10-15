@@ -4,11 +4,11 @@ type Categories = {
   id: number;
   name: string;
   imgFront: string;
-  imgBack:string;
-  bgFront:string;
-  bgBack:string;
-  color:string;
-  link:string;
+  imgBack: string;
+  bgFront: string;
+  bgBack: string;
+  color: string;
+  link: string;
 };
 
 type NewsArticle = {
@@ -27,24 +27,35 @@ type NewsArticle = {
   }[];
 };
 
+type LeProjetEducatifItem = {
+  id: number;
+  title: string;
+  citation: string;
+  text: string;
+  textX: string;
+  list: { id: number; text: string }[];
+};
+
 type Data = {
   categories: Categories[];
-  news: NewsArticle[]; 
+  news: NewsArticle[];
+  leProjetEducatif: LeProjetEducatifItem[];
   error: string | null;
 };
 
 const initialData: Data = {
   categories: [],
   news: [],
-  error: null
+  leProjetEducatif: [],
+  error: null,
 };
 
 const DataContext = createContext<Data | undefined>(undefined);
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+
 export const DataProvider = ({ children }: PropsWithChildren<{}>) => {
-   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [error, setError] = useState<Error | null>(null);
   const [data, setData] = useState<Data | undefined>(undefined);
+
   const fetchData = useCallback(async () => {
     try {
       const response = await fetch("/data.json");
@@ -57,9 +68,11 @@ export const DataProvider = ({ children }: PropsWithChildren<{}>) => {
       setError(err instanceof Error ? err : new Error("An error occurred"));
     }
   }, []);
+
   useEffect(() => {
     fetchData();
   }, [fetchData]);
+
   return (
     <DataContext.Provider value={data || initialData}>
       {children}
