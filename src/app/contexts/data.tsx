@@ -1,4 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-empty-object-type, react-hooks/exhaustive-deps */
+
 
 import { createContext, useCallback, useContext, useEffect, useState, PropsWithChildren } from "react";
 
@@ -53,7 +54,7 @@ const initialData: Data = {
     error: null,
 };
 
-const DataContext = createContext<Data | undefined | null>(null);
+const DataContext = createContext<Data | null>(null);
 export const DataProvider = ({ children }: PropsWithChildren<{}>) => {
     const [error, setError] = useState<Error | null>(null);
     const [data, setData] = useState<Data>(initialData);
