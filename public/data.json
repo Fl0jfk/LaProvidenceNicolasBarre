@@ -83,6 +83,43 @@
                     "text":"en favorisant la capacité d'adaptation."
                 }
             ]
+        },
+        {
+            "id":3,
+            "title":"Ouvrir sur le monde",
+            "citation":"La beauté de l'univers consite dans les beautés différentes de chaque chose",
+            "text": "",
+            "textX": "",
+            "list":[
+                {
+                    "id":1,
+                    "text":"Des langues"
+                },
+                {
+                    "id":2,
+                    "text":"Des sciences"
+                },
+                {
+                    "id":3,
+                    "text":"De la culture"
+                },
+                {
+                    "id":4,
+                    "text":"Du développement durable"
+                },
+                {
+                    "id":5,
+                    "text":"De l'humanitaire"
+                },
+                {
+                    "id":6,
+                    "text":"Du sport et des associations"
+                },
+                {
+                    "id":7,
+                    "text":"Du domaine professionnel"
+                }
+            ]
         }
     ],
     "news":[
@@ -95,6 +132,7 @@
             "description":"Avec 33 participantes, La Providence - Nicolas Barré gagne le challenge Emma associations.",
             "text":"",
             "pdf":"",
+            "video":"",
             "photos":[
                 {
                     "id":1,
@@ -122,9 +160,38 @@
             "description":"Depuis la rentrée 2024, l'établissement propose pour les 3èmes et les 2ndes le Dual Diploma",
             "text":"Academica Dual Diploma, c'est le diplôme national du baccalauréat en présentiel + le High School Diploma américain en digital, depuis votre collège-lycée partenaire. Ce programme aide à renforcer les compétences en anglais, ouvre des portes pour des études supérieurs à l'étranger, et enrichit le CV des élèves.",
             "pdf":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/blog/Dual+Diploma+02-10-2024/Presentation-Academica-Dual-Diploma-2024-25-Groupe-Scolaire-la-Providence-Nicolas-Barre-Mesnil.pdf",
+            "video":"",
+            "photos":[]
+        },
+        {
+            "id":3,
+            "title":"Gadamascar 4",
+            "time":"15/10/2024",
+            "categories":"Groupe scolaire, Lycée",
+            "image":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/blog/Gadamsacar+4+15-10-2024/gadamascar-2-png2-854af81d120549d99f6b33db9876ff9d.png.webp",
+            "description":"C'est parti pour un nouveau voyage humanitaire avec les élèves de terminale ST2S",
+            "text":"",
+            "pdf":"",
+            "video":"",
             "photos":[
-                
+                {
+                    "id":1,
+                    "alt":"Photo 1",
+                    "link":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/blog/Gadamsacar+4+15-10-2024/B6BA0776-7997-4FD2-9F44-B046A04EF946-768x564.jpeg.webp"
+                }
             ]
+        },
+        {
+            "id":4,
+            "title":"La restauration évolue : Newrest entre saveur et équilibre",
+            "time":"01/10/2024",
+            "categories":"Groupe scolaire, Collège, École, Lycée",
+            "image":"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/blog/La+restauration+%C3%A9volue+01-10-2024/1f8407f9-tendances-restauration-2021-1536x576.png.webp",
+            "description":"",
+            "text":"",
+            "pdf":"",
+            "video":"https://player.vimeo.com/video/1014726698?dnt=1&app_id=122963",
+            "photos":[]
         }
     ]
 }

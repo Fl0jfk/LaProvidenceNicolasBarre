@@ -8,9 +8,7 @@ import { useState } from "react";
 export default function News() {
     const { news, error } = useData();
     const [selectedCategory, setSelectedCategory] = useState("");
-    if (error) {
-        return <div>Error: {error}</div>;
-    }
+    if (error){ return <div>Error: {error}</div>}
     const sortedNews = news
         .map(article => {
             const [day, month, year] = article.time.split('/');
@@ -43,15 +41,13 @@ export default function News() {
                     filteredNews.map(article => {
                         return (
                             <Link href={`/news/${article.id}`} key={article.id} className="flex flex-col mb-4 border p-4 rounded-3xl max-h-[500px] min-h-[350px] items-center justify-center">
-                                <Image src={article.image} alt={article.title} width={300} height={200} className="rounded-2xl mb-2"/>
+                                <Image src={article.image} alt={article.title} width={300} height={200} className="rounded-2xl mb-2 max-h-[280px]"/>
                                 <div className="flex flex-col w-full items-center justify-center">
                                     <h5 className="text-2xl font-bold">{article.title}</h5>
                                     <p className="text-sm text-gray-500">{article.time}</p>
                                     <div className="flex space-x-2 mt-2">
                                         {article.categories.split(', ').map((category, index) => (
-                                            <span key={index} className="bg-gray-200 rounded-full px-2 py-1 text-sm text-gray-700">
-                                                {category}
-                                            </span>
+                                            <span key={index} className="bg-gray-200 rounded-full px-2 py-1 text-sm text-gray-700">{category}</span>
                                         ))}
                                     </div>
                                 </div>

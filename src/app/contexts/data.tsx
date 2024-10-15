@@ -20,6 +20,7 @@ type NewsArticle = {
   description: string;
   text: string;
   pdf: string;
+  video: string;
   photos: {
     id: number;
     alt: string;
