@@ -11,7 +11,7 @@ export default function Home() {
           <h2 className="text-[#FBB800]">La Providence</h2>
           <h2 className="text-[#18AAE2]">Nicolas Barré</h2>
         </div>
-        <p className="text-[#E3097B] font-semibold">Une passeport pour l'avenir</p>
+        <p className="text-[#E3097B] font-semibold">Une passeport pour l&apos;avenir</p>
       </section>
       <RollingSlider/>
     </main>
