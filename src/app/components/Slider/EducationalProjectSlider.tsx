@@ -53,13 +53,13 @@ export default function LeProjetEducatifSlider() {
                         {leProjetEducatif.map((slide, index) =>
                             index === currentIndex && (
                                 <motion.div key={slide.id} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -100 }} transition={{ duration: 0.5 }} className="absolute w-full h-full flex items-center justify-center cursor-grab active:cursor-grabbing px-8" drag="x" dragConstraints={{ left: 0, right: 0 }} onDragEnd={handleDragEnd} style={{ minHeight: "300px" }}>
-                                    <div className="p-8 rounded-3xl bg-gray-100 w-full h-full flex flex-col justify-center">
-                                        <h3 className="text-2xl font-bold">{slide.title}</h3>
-                                        <blockquote className="italic">{slide.citation}</blockquote>
-                                        {slide.text && <p>{slide.text}</p>}
+                                    <div className="p-8 rounded-3xl bg-gray-100 w-full h-full flex flex-col justify-center gap-2 font-light">
+                                        <h3 className="text-2xl font-bold underline uppercase">{slide.title}</h3>
+                                        <blockquote className="italic text-bold text-2xl">{slide.citation}</blockquote>
+                                        {slide.text && <p className="italic">{slide.text}</p>}
                                         {slide.textX && <p className="italic">{slide.textX}</p>}
                                         {slide.list.length > 0 && (
-                                            <ul className="mt-4 list-disc list-inside">
+                                            <ul className="mt-4 list-disc list-inside italic">
                                                 {slide.list.map((item) => (
                                                     <li key={item.id}>{item.text}</li>
                                                 ))}
