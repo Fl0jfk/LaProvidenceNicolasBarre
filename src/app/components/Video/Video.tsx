@@ -1,11 +1,3 @@
 export default function Video() {
-    return (
-        <section className="h-[490px] md:h-[650px] lg:h-[700px] xl:h-[700px] w-full mx-auto max-w-[1200px] flex flex-col">
-            <iframe
-                className="w-full h-[600px] md:h-[800px]"
-                src="https://player.vimeo.com/video/706082592?autoplay=1&muted=1&controls=0&loop=1"
-                title="Video de présentation La providence Nicolas Barré"
-            />
-        </section>
-    );
+    return <iframe className="w-full h-[700px] sm:h-[400px] md:h-[500px] xl:mb-8 md:my-8 max-w-[1200px] mx-auto" src="https://player.vimeo.com/video/706082592?autoplay=1&muted=1&controls=0&loop=1" title="Video de présentation La providence Nicolas Barré"/> 
 }
