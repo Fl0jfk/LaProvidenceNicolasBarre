@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
 
 import { useData } from "@/app/contexts/data";
@@ -35,7 +38,6 @@ export default function LeProjetEducatifSlider() {
             if (intervalRef.current) clearInterval(intervalRef.current);
         };
     }, []);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const handleDragEnd = (event:any, info:any) => {
         if (info.offset.x < -50) {
             goToNext();
