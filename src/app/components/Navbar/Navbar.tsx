@@ -36,35 +36,35 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                         <ul className='flex flex-col gap-2'>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Projet éducatif</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Projet Éducatif">Projet éducatif</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Projet pastoral</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Projet Pastoral">Projet pastoral</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Projet d&apos;établissement</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Projet d'Établissement">Projet d&apos;établissement</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">La tutelle</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page La Tutelle">La tutelle</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Notre Histoire</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Notre histoire">Notre Histoire</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"https://0761713z.esidoc.fr"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Le CDI</Link>
+                                <Link href={"https://0761713z.esidoc.fr"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers le CDI">Le CDI</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal'>L&apos;internat</Link>
+                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la section l'internat">L&apos;internat</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">La Brochure</Link>
+                                <Link href={"/labrochure"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page brochure">La Brochure</Link>
                             </li>
                         </ul>
                         <Link className='hover:scale-110' href="/actualité" onClick={handleLinkClick} aria-label="Lien vers la page Actualité">Actualité</Link>
@@ -89,8 +89,8 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                         </Link>
                     </div>
                     <div className='flex gap-4 w-full px-4 justify-center items-center'>
-                        <Link href={"/"} className='bg-gray-500 rounded-full p-2 text-base' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Notre boutique en ligne</Link>
-                        <Link href="https://www.ecoledirecte.com/login?cameFrom=%2FAccueil" className='bg-gray-500 rounded-full p-2 text-base' onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Connectez-vous à EcoleDirecte</Link>
+                        <Link href={"/"} className='bg-gray-500 rounded-full p-2 text-base' onClick={handleLinkClick} aria-label="Lien vers notre boutique">Notre boutique en ligne</Link>
+                        <Link href="https://www.ecoledirecte.com/login?cameFrom=%2FAccueil" className='bg-gray-500 rounded-full p-2 text-base' onClick={handleLinkClick} aria-label="Lien vers École Directe">Connectez-vous à EcoleDirecte</Link>
                     </div>
                 </motion.nav>
             }
