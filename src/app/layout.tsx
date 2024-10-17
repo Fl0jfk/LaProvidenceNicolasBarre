@@ -12,7 +12,7 @@ import { Viewport } from 'next';
 
 const metaDetails: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Bienvenue chez Karine-Beauté-Zen',
+    title: 'Accueil Groupe scolaire La Providence',
     description: '',
   },
   '/mentionslegales': {
