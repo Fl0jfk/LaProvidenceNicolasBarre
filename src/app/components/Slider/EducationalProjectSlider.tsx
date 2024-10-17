@@ -46,11 +46,11 @@ export default function LeProjetEducatifSlider() {
             <h4 className="text-3xl">éducatif</h4>
             <p className="mt-4">Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État. À la suite de Nicolas Barré, la communauté éducative veut :</p>
             <div className="relative w-full max-w-[1200px] mx-auto mt-4">
-                <div className="overflow-hidden relative h-[350px]">
+                <div className="overflow-hidden relative h-[350px] sm:h-[450px]">
                     <AnimatePresence initial={false}>
                         {leProjetEducatif?.map((slide, index) =>
                             index === currentIndex && (
-                                <motion.div key={index} initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}} exit={{opacity: 0, x: -100}} transition={{duration: 0.5}} className="absolute w-full h-full flex items-center justify-center cursor-grab active:cursor-grabbing px-8" drag="x" dragConstraints={{left: 0, right: 0}} onDragEnd={handleDragEnd} style={{minHeight: "350px"}}>
+                                <motion.div key={index} initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}} exit={{opacity: 0, x: -100}} transition={{duration: 0.5}} className="absolute w-full h-full flex items-center justify-center cursor-grab active:cursor-grabbing px-8 sm:h-[450px]" drag="x" dragConstraints={{left: 0, right: 0}} onDragEnd={handleDragEnd} style={{minHeight: "350px"}}>
                                     <div className="p-8 rounded-3xl bg-gray-100 w-full h-full flex flex-col justify-center font-light">
                                         <h3 className="text-2xl font-bold underline uppercase">{slide.title}</h3>
                                         <blockquote className="italic text-bold text-2xl">{slide.citation}</blockquote>
