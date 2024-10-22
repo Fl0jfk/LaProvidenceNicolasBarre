@@ -11,11 +11,11 @@ export default function ProjetEducatif(){
                 <h3>Projet</h3>
                 <h4>éducatif</h4>
                 <p>Le projet éducatif de l&apos;école, du collège et du lycée La Providence vise à ce que tout membre de la communauté éducative se sente invité à vivre le message du Christ :</p>
-                <p>" Comme je vous ai aimés, aimez-vous les uns les autres. "</p>
+                <p>&quot; Comme je vous ai aimés, aimez-vous les uns les autres. &quot;</p>
                 <p>et à ce que chaque jeune, à travers l&apos;attitude des adultes, l&apos;entende de la manière suivante :</p>
-                <p>" Je crois en toi, j&apos;espère en toi, tu es capable de grandir, de surmonter les difficultés, je te fais confiance. "</p>
-                <p>" Je t&apos;aime comme tu es, c&apos;est à dire comme Dieu t&apos;aime. "</p>
-                <p>Le projet éducatif de La Providence inspiré par le message de Jésus-Christ tend " à promouvoir la personne dans toutes ses dimensions." Il se veut fidèle à l&apos;inspiration de Nicolas Barré, fondateur au XVII° siècle des Sœurs de l&apos;Enfant-Jésus Providence de Rouen :</p>
+                <p>&quot; Je crois en toi, j&apos;espère en toi, tu es capable de grandir, de surmonter les difficultés, je te fais confiance. &quot;</p>
+                <p>&quot; Je t&apos;aime comme tu es, c&apos;est à dire comme Dieu t&apos;aime. &quot;</p>
+                <p>Le projet éducatif de La Providence inspiré par le message de Jésus-Christ tend &quot; à promouvoir la personne dans toutes ses dimensions.&quot; Il se veut fidèle à l&apos;inspiration de Nicolas Barré, fondateur au XVII° siècle des Sœurs de l&apos;Enfant-Jésus Providence de Rouen :</p>
                 <p>Accueillir, instruire, éduquer chacun selon son génie propre.</p>
                 <div className="w-full flex justify-start">
                     <Image src={"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/groupe-scolaire-la-providence-nicolas-barre-le-mesnil-esnard-ecole-college-lycee-prive-27.jpg"} alt="Photo de deux enfants qui révisent" width={500} height={300}/> 
