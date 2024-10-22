@@ -25,14 +25,14 @@ export default function ProjetEducatif(){
                 <div className="w-full flex justify-end">
                     <Image src={"https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/groupe-scolaire-la-providence-nicolas-barre-le-mesnil-esnard-ecole-college-lycee-prive-4.jpg.webp"} alt="Photo d'une classe de maternelle" width={500} height={300}/>
                 </div>
-                <p>Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d'association avec l&apos;État.</p>
+                <p>Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État.</p>
                 <ul className="flex flex-col gap-6">À la suite de Nicolas Barré, la communauté éducative veut :
                 {leProjetEducatif?.map((slide, index) =>
                              (
                                 <li key={index} className="w-full h-full flex items-center justify-center px-8 bg-white rounded-3xl">
                                     <div className="p-8 rounded-3xl w-full h-full flex flex-col justify-center font-light">
                                         <h3 className="text-2xl font-bold underline uppercase">{slide.title}</h3>
-                                        <blockquote className="italic text-bold text-2xl">"{slide.citation}"</blockquote>
+                                        <blockquote className="italic text-bold text-2xl">&quot;{slide.citation}&quot;</blockquote>
                                         {slide.text && <p className="italic">{slide.text}</p>}
                                         {slide.textX && <p className="italic">{slide.textX}</p>}
                                         {slide.list.length > 0 && (
