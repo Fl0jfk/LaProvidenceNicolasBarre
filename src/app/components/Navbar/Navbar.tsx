@@ -32,7 +32,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                     </div>
                     <div className={`flex flex-col gap-3 justify-center items-center w-full uppercase mt-2`}>
                         <Link className='hover:scale-110' href="/" onClick={handleLinkClick} aria-label="Lien vers la page d'accueil">Accueil</Link>
-                        <Link className='hover:scale-110' href="/présentation" onClick={handleLinkClick} aria-label="Lien vers la page Présentation">Présentation</Link>
+                        <Link className='hover:scale-110' href="/presentation" onClick={handleLinkClick} aria-label="Lien vers la page Présentation">Présentation</Link>
                         <ul className='flex flex-col gap-2'>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>

@@ -28,7 +28,42 @@
             "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(227, 9, 123, 0.57) 61%)",
             "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(227, 9, 123, 0.58) 100%)",
             "color": "#E3097B",
-            "link": ""
+            "link": "/"
+        }
+    ],
+    "directrices":[
+        {
+            "id":1,
+            "name":"Vallet",
+            "grade": "Directrice de l'école",
+            "imgFront": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/mme-vallet-directrice-ecole-la-providence-nicolas-barre-mesnil-esnard.png",
+            "imgBack": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/mme-vallet-directrice-ecole-la-providence-nicolas-barre-mesnil-esnard.png",
+            "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(251, 184, 0, 0.52) 61%)",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(251, 184, 0, 0.52) 100%)",
+            "color": "#FBB800",
+            "link":"/"
+        },
+        {
+            "id":2,
+            "name":"Dumouchel",
+            "grade": "Directrice du collège",
+            "imgFront": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/Direction_5-removebg-preview.png",
+            "imgBack": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/Direction_5-removebg-preview.png",
+            "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(24, 170, 226, 0.52) 61%)",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(24, 170, 226, 0.6) 100%)",
+            "color": "#18AAE2",
+            "link":""
+        },
+        {
+            "id":1,
+            "name":"Dona",
+            "grade": "Directrice du lycée",
+            "imgFront": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/mme-dona-directrice-lycee-la-providence-nicolas-barre-mesnil-esnard.png",
+            "imgBack": "https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/mme-dona-directrice-lycee-la-providence-nicolas-barre-mesnil-esnard.png",
+            "bgFront": "linear-gradient(125deg, rgb(255, 255, 255) 18%, rgba(227, 9, 123, 0.57) 61%)",
+            "bgBack": "linear-gradient(rgb(255, 255, 255) 0%, rgba(227, 9, 123, 0.58) 100%)",
+            "color": "#E3097B",
+            "link":"/"
         }
     ],
     "leProjetEducatif":[

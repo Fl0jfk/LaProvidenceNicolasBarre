@@ -14,6 +14,17 @@ type Categories = {
     link: string;
 };
 
+type Directrices = {
+    id: number;
+    name: string;
+    imgFront: string;
+    imgBack: string;
+    bgFront: string;
+    bgBack: string;
+    color: string;
+    link: string;
+};
+
 type NewsArticle = {
     id: number;
     title: string;
@@ -42,6 +53,7 @@ type LeProjetEducatifItem = {
 
 type Data = {
     categories: Categories[];
+    directrices: Directrices[];
     news: NewsArticle[];
     leProjetEducatif: LeProjetEducatifItem[];
     error: string | null;
@@ -49,6 +61,7 @@ type Data = {
 
 const initialData: Data = {
     categories: [],
+    directrices:[],
     news: [],
     leProjetEducatif: [],
     error: null,

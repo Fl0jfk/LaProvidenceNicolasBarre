@@ -3,11 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function Slide({ name, imgFront, imgBack, bgFront, bgBack, color, link }: SliderProps) {
+export default function Slide({ name, grade, imgFront, imgBack, bgFront, bgBack, color, link }: SliderProps) {
     const [isHovered, setIsHovered] = useState(false);
     return (
         <Link href={link} style={!isHovered?{backgroundImage:bgFront }:{backgroundImage:bgBack}} className="select-none flex flex-col justify-between h-[450px] min-w-[250px] w-[250px] rounded-3xl m-3 cursor-grab active:cursor-grabbing relative overflow-hidden" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
-            <p className={`pt-4 pl-4 text-4xl`} style={{ color:color}}>{name}</p>
+            {grade&&<p className={`pt-4 pl-4 text-2xl font-light`} style={{ color:color}}>{grade}</p>}
+            <p className={`pt-4 pl-4 text-3xl`} style={{ color:color}}>{name}</p>
             <div className='flex w-full h-full items-end justify-end'>
                 <div className='relative h-[95%] w-[85%]'>
                     <Image src={isHovered?imgBack:imgFront} alt={name} style={{objectFit:'cover'}} className='select-none pointer-events-none' quality={100} fill sizes='70vw'/>
@@ -23,6 +24,7 @@ export default function Slide({ name, imgFront, imgBack, bgFront, bgBack, color,
 }
 
 type SliderProps = {
+    grade?:string;
     name: string;
     imgFront: string;
     imgBack: string;
