@@ -52,7 +52,7 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Notre histoire">Notre Histoire</Link>
+                                <Link href="/presentation#notreHistoire"className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page Notre histoire">Notre Histoire</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
@@ -60,11 +60,11 @@ export default function Navbar({menuOpened, onLinkClick} :NavbarProps ){
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la section l'internat">L&apos;internat</Link>
+                                <Link href="/presentation#lInternat" className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la section l'internat">L&apos;internat</Link>
                             </li>
                             <li className='flex gap-2 items-center'>
                                 <span className='w-2 h-2 rounded-full bg-black'/>
-                                <Link href={"/labrochure"} className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page brochure">La Brochure</Link>
+                                <Link href="/presentation#laBrochure" className='text-base font-normal' onClick={handleLinkClick} aria-label="Lien vers la page brochure">La Brochure</Link>
                             </li>
                         </ul>
                         <Link className='hover:scale-110' href="/actualité" onClick={handleLinkClick} aria-label="Lien vers la page Actualité">Actualité</Link>

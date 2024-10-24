@@ -5,6 +5,8 @@ import Slider from "../components/Slider/Slider";
 import { useData } from "../contexts/data";
 import ProjetEducatif from "./sections/projetEducatif";
 import NotreHistoire from "./sections/notreHistoire";
+import Internat from "./sections/internat";
+import LaBrochure from "./sections/laBrochure";
 
 export default function Presentation() {
     const data = useData()
@@ -15,13 +17,13 @@ export default function Presentation() {
       <section className="max-w-[1200px] mx-auto w-full h-full mt-10">
         <Image src="https://laprovidencenicolasbarre.s3.eu-west-3.amazonaws.com/images/groupe-scolaire-la-providence-nicolas-barre-le-mesnil-esnard-ecole-college-lycee-prive-19.jpg" alt="Photo du groupe scolaire" width={1200} height={600}/>
       </section>
-      <section className="max-w-[1200px] mx-auto">
-        <h3>Le mot</h3>
-        <h4>des directrices</h4>
+      <section className="max-w-[1200px] mx-auto mt-8">
+        <h3 className="uppercase text-2xl font-bold pl-4">Le mot</h3>
+        <h4 className="text-2xl font-normal pl-4 mb-[-50px]">des directrices</h4>
         <Slider props={data.directrices}/>
       </section>
-      <section className="max-w-[1200px] mx-auto p-4 flex flex-col gap-2">
-        <h3 className="text-3xl">Bienvenue à la Providence Nicolas Barré</h3>
+      <section className="max-w-[1200px] mx-auto p-4 flex flex-col gap-2 mt-[-30px]">
+        <h3 className="text-3xl font-normal">Bienvenue à la Providence Nicolas Barré</h3>
         <p className="font-light italic">De deux à dix-huit ans, de la maternelle, tout jeune, fille ou garçon, baptisé ou pas, très doué pour les études ou beaucoup moins, d&apos;origine sociale modeste ou plus favorisée, peut-être accueilli dans notre établissement où il comprendra, nous l&apos;espérons, nous le voulons, nous nous y engageons par notre projet éducatif, que les adultes espèrent en lui, croient en lui, l&apos;aiment tel qu&apos;il est et non tel qu&apos;ils rêvaient qu&apos;il soit.</p>
         <p className="font-bold">Trois établissements (école, collège, lycée), trois directions, mais un seul projet éducatif, une seule tutelle, un même esprit.</p>
         <ul>
@@ -40,6 +42,8 @@ export default function Presentation() {
       </section>
       <ProjetEducatif/>
       <NotreHistoire/>
+      <Internat/>
+      <LaBrochure/>
     </main>
   );
 }
