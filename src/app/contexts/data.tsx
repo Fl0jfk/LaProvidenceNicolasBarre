@@ -51,11 +51,18 @@ type LeProjetEducatifItem = {
     list: { id: number; text: string }[];
 };
 
+type Internat = {
+    id: number;
+    title: string;
+    text: string;
+};
+
 type Data = {
     categories: Categories[];
     directrices: Directrices[];
     news: NewsArticle[];
     leProjetEducatif: LeProjetEducatifItem[];
+    internat:Internat[];
     error: string | null;
 };
 
@@ -64,6 +71,7 @@ const initialData: Data = {
     directrices:[],
     news: [],
     leProjetEducatif: [],
+    internat:[],
     error: null,
 };
 

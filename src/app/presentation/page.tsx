@@ -40,7 +40,12 @@ export default function Presentation() {
         </ul>
         <p>Ce site récapitule les informations pratiques, les activités éducatives et pédagogiques... Prêtez une attention particulière aux projets qui nous animent et aidez nous à promouvoir pour demain la qualité d&apos;éducation du service rendu aux jeunes confiés à notre sollicitude.</p>
       </section>
-      <ProjetEducatif/>
+      <section className="w-full max-w-[1200px] flex flex-col justify-center pb-16 mx-auto gap-1">
+        <h3 className="text-3xl uppercase px-8">Le projet</h3>
+        <h4 className="text-3xl px-8">éducatif</h4>
+        <p className="mt-4 px-8">Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État. À la suite de Nicolas Barré, la communauté éducative veut :</p>
+        <ProjetEducatif/>
+      </section>
       <NotreHistoire/>
       <Internat/>
       <LaBrochure/>

@@ -120,7 +120,7 @@
             ]
         },
         {
-            "id":3,
+            "id":4,
             "title":"Ouvrir sur le monde",
             "citation":"La beauté de l'univers consite dans les beautés différentes de chaque chose.",
             "text": "",
@@ -155,6 +155,28 @@
                     "text":"Du domaine professionnel"
                 }
             ]
+        }
+    ],
+    "internat":[
+        {
+            "id":1,
+            "title":"Ambiance",
+            "text": "L'internat peut être bébéfique s'il est accepté par les élèves comme une aide dans leurs études et un lieu d'échanges et d'amitié. Noël y est particulièrement fêté, par une veillée organisée par les pensionnaires. Selon la tradition, ce sont les terminales qui la prennent en responsabilité."
+        },
+        {
+            "id":2,
+            "title":"Le parrainage",
+            "text": "Un élève lycéen ayant l'habitude de l'internat est nommé comme parrain d'un élève plus jeune (au collège) ou d'un lycéen (nouveau dans l'établissement). Ce parrainage a pour vocation de faciliter la compréhension de la vie à l'internat. L'internat offre des conditions de travail favorables et un cadre éducatif à des jeunes prêts à partager la vie en collectivité.,"
+        },
+        {
+            "id":3,
+            "title":"Au collège",
+            "text": "Le mercredi, les surveillantes animent différentes activités pour les internes. Il y a la possibilité de sortie le mercredi après les cours, éventuellement jusqu'au jeudi matin pour les familles qui en font la demande."
+        },
+        {
+            "id":4,
+            "title":"Au lycée",
+            "text": "Avec l'accord des parents, les élèves peuvent sortir le mercredi après-midi après les cours ou les devoirs surveillés."
         }
     ],
     "news":[

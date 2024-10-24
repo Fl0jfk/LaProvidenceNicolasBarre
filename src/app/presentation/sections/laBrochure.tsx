@@ -1,6 +1,6 @@
 export default function LaBrochure(){
     return (
-        <section id="laBrochure" className="flex flex-col items-center justify-center">
+        <section id="laBrochure" className="flex flex-col items-center justify-center pt-8">
             <h1 className="w-[90%] text-center text-4xl max-w-[1200px] mx-auto xl:mb-12 uppercase font-bold">La brochure</h1>
             <h2 className="text-4xl font-light">du groupe scolaire</h2>
             <section className="p-8 max-w-[1200px] w-full mx-auto">
