@@ -41,10 +41,10 @@ export default function LeProjetEducatifSlider() {
         }
     };
     return (
-        <section className="w-full max-w-[1200px] flex flex-col justify-center px-4 pb-16 mx-auto gap-1">
-            <h3 className="text-3xl uppercase">Le projet</h3>
-            <h4 className="text-3xl">éducatif</h4>
-            <p className="mt-4">Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État. À la suite de Nicolas Barré, la communauté éducative veut :</p>
+        <section className="w-full max-w-[1200px] flex flex-col justify-center pb-16 mx-auto gap-1">
+            <h3 className="text-3xl uppercase px-8">Le projet</h3>
+            <h4 className="text-3xl px-8">éducatif</h4>
+            <p className="mt-4 px-8">Établissement Catholique d&apos;Enseignement de la maternelle à la terminale, La Providence accueille en référence aux valeurs évangéliques, les familles qui en font le choix pour leurs enfants. Partenaire du service public d&apos;enseignement, l&apos;établissement est sous contrat d&apos;association avec l&apos;État. À la suite de Nicolas Barré, la communauté éducative veut :</p>
             <div className="relative w-full max-w-[1200px] mx-auto mt-4">
                 <div className="overflow-hidden relative h-[350px] sm:h-[500px]">
                     <AnimatePresence initial={false}>
@@ -69,9 +69,7 @@ export default function LeProjetEducatifSlider() {
                         )}
                     </AnimatePresence>
                 </div>
-                <button onClick={goToPrev} className="absolute left-0 top-1/2 transform -translate-y-1/2 text-black text-4xl font-bold">{"<"}</button>
-                <button onClick={goToNext} className="absolute right-0 top-1/2 transform -translate-y-1/2 text-black text-4xl font-bold">{">"}</button>
-                <div className="flex justify-center mt-4 space-x-2">
+                <div className="flex justify-center space-x-2">
                     {leProjetEducatif?.map((_, index) => (
                         <button key={index} onClick={() => goToSlide(index)} className={`w-3 h-3 rounded-full ${index === currentIndex ? "bg-black" : "bg-gray-300"}`}/>
                     ))}
