@@ -27,7 +27,7 @@ export default function Internat(){
                     <p>1</p>
                     <div>
                         <h4>Les moments de détente</h4>
-                        <p>Ils sont une occasion de partager un moment au foyer, de se dépenser en salle de sport ou à l'extérieur sur les différents terrains quand le temps le permet.</p>
+                        <p>Ils sont une occasion de partager un moment au foyer, de se dépenser en salle de sport ou à l&apos;extérieur sur les différents terrains quand le temps le permet.</p>
                     </div>
                 </div>
                 <div>
@@ -35,11 +35,11 @@ export default function Internat(){
                     <div>
                         <h4>Les études surveillées</h4>
                         <p>Elles ont lieu en salle (après les cours) et apportent un cadre satisfaisant pour le travail individuel.</p>
-                        <p>Si nécessaire, les collégiens peuvent profiter d'un suivi plus personnalisé dans le cadre de l'accompagnement éducatif.</p>
-                        <p>Le lundi et le jeudi, de 18h00 à 19h00, les élèves les plus en difficulté peuvent bénéficier de l'étude alpha encadré par des étudiants de cursus sélectifs (sans surcoût pour les familles).</p>
+                        <p>Si nécessaire, les collégiens peuvent profiter d&apos;un suivi plus personnalisé dans le cadre de l&apos;accompagnement éducatif.</p>
+                        <p>Le lundi et le jeudi, de 18h00 à 19h00, les élèves les plus en difficulté peuvent bénéficier de l&apos;étude alpha encadré par des étudiants de cursus sélectifs (sans surcoût pour les familles).</p>
                         <p>Les élèves de terminale peuvent être autorisés à travailler en autogestion.</p>
-                        <p>Le CDI est accessible jusqu'à 19h00.</p>
-                        <p>Deux salles informatiques (60 postes) sont accessibles pour les lycéens jusqu'à 19h00 puis de 19h30 à 20h30. Après le repas et le temps de détente les élèves peuvent poursuivre leur travail dans leur chambre.</p>
+                        <p>Le CDI est accessible jusqu&apos;à 19h00.</p>
+                        <p>Deux salles informatiques (60 postes) sont accessibles pour les lycéens jusqu&apos;à 19h00 puis de 19h30 à 20h30. Après le repas et le temps de détente les élèves peuvent poursuivre leur travail dans leur chambre.</p>
                     </div>
                 </div>
             </div>
